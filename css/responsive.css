@@ -1,0 +1,115 @@
+/*=================================================================
+*   FOR LARGE DESKTOP RESOLATION 1366PX
+==================================================================*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {}
+/* End large desktop responsive media query */
+/*================================================
+*   FOR MEDIUM DESKTOP RESOLATION 970PX
+=================================================*/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+/* End Medium Desktop responsive media query */
+/*================================================
+*   FOR TABLET RESOLATION 768PX
+=================================================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        left: 10px;
+        top: -138px;
+    }
+    .navbar-brand > img {
+        height: auto;
+        width: 200px;
+        top: 245px;
+    }
+    .menu-area .navbar-default .navbar-nav > li > a {
+        padding: 12px;
+    }
+    .geo-image {
+        width: 35%;
+        top: 245px;
+    }
+    .geo-txt h1 {
+        font-size: 45px;
+    }
+    .geo-wrap {
+        padding: 230px 0 180px;
+    }
+    .geo-image > img {
+        left: 13%;
+        top: 54%;
+    }
+    .single-txt h4 {
+        font-size: 18px;
+    }
+    .get-thumb > img {
+        left: -3%;
+        top: 16%;
+        width: 75%;
+    }
+    .counter {
+        font-size: 65px;
+    }
+}
+/* End tablet responsive media query */
+/*==============================================
+*   FOR SMALL MOBILE RESOLATION 0 to 768PX
+================================================*/
+
+@media only screen and (max-width: 767px) {
+    .geo-image,
+    .promo-area {
+        display: none;
+    }
+    .geo-txt h1 {
+        font-size: 45px;
+    }
+    .store-btn > img {
+        margin-bottom: 30px;
+    }
+    .navbar-brand {
+        left: -2%;
+        top: -110px;
+        width: 200px;
+    }
+    .geo-wrap {
+        padding: 90px 0 65px;
+        position: relative;
+    }
+    .vedio-area iframe {
+        height: 225px;
+    }
+    .newsletter-area::after {
+        font-size: 260px;
+        left: 0;
+        top: 0;
+    }
+    .news-txt > h2 {
+        font-size: 45px;
+    }
+    .news-form button {
+        width: 90px;
+    }
+    .single-fun,
+    .single-price {
+        margin-bottom: 30px;
+    }
+    .counter {
+        font-size: 60px;
+    }
+    .owl-controls {
+        opacity: 0;
+    }
+    .screenshot-area.section-padding {
+        padding-bottom: 0;
+    }
+}
+/* End small mobile responsive media query */
+/*========================================
+*   FOR WIDE MOBILE RESOLATION 480PX to 768PX
+==========================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+/* End wide mobile responsive media query */
